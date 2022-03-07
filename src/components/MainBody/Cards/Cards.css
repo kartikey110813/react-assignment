@@ -1,0 +1,44 @@
+.card {
+  background-color: #171717;
+  border-radius: 10px;
+}
+.cardsImage {
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+small {
+  color: white;
+}
+.card-text {
+  color: #cfcfcf;
+}
+
+.citySpan {
+  background-color: #0000008f;
+  padding: 3%;
+  border-radius: 16px;
+  margin-right: 1rem;
+}
+.active {
+  color: white;
+}
+.Nride {
+  text-align: right;
+}
+.Uride {
+  text-align: center;
+}
+
+@media screen and (max-width: 765px) {
+  .Nride {
+    text-align: center;
+  }
+  .Uride {
+    text-align: center;
+  }
+
+  .Pride {
+    text-align: center;
+  }
+}
